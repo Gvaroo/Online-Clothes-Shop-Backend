@@ -72,22 +72,6 @@ else
 	Console.WriteLine("Using in-memory cache.");
 }
 
-// Conditionally add Redis or In-memory cache
-if (isRedisAvailable)
-{
-	builder.Services.AddStackExchangeRedisCache(options =>
-	{
-		options.Configuration = "localhost:6379";
-		options.InstanceName = "OnlineShopApp:";
-	});
-	Console.WriteLine("Using Redis cache.");
-}
-else
-{
-	builder.Services.AddDistributedMemoryCache();
-	Console.WriteLine("Using in-memory cache.");
-}
-
 
 // Add  Fluent Validation support
 
