@@ -1,0 +1,39 @@
+﻿<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .order-details {
+            margin-bottom: 15px;
+        }
+
+        .product-name {
+            font-weight: bold;
+        }
+
+        .total-amount {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p>Hello {{FirstName}},</p>   
+    <p>Thank you for your order! We are pleased to confirm your recent purchase:</p>
+    <div class="order-details">
+        <p><b>Order Date:</b> {{OrderDate}}</p>
+        <p><b>Shipping Address:</b> {{ShippingAddress}}</p>
+    </div>
+    <p><b>Ordered Products:</b></p>
+    {{OrderedProducts}}
+    <div class="order-details">
+        <p><b>Total Amount:</b> ${{TotalAmount}}</p>
+    </div>
+    <p>If you have any questions or need further assistance, please don't hesitate to contact us.</p>
+    <p>Thank you for shopping with us!</p>
+    <p>Best regards,</p>
+    <p>Your Online Shop Team</p>
+</body>
+</html>
