@@ -1,5 +1,3 @@
-# OnlineShopApp
-
 # About App
 
 This is an online shop backend built with ASP.NET Core. Users can authenticate within the app, view products, search by various filter categories, leave reviews for products, add items to the cart, and make changes such as adjusting sizes, quantities, or deleting items. Users can also complete the checkout process using a credit card. Additionally, users can view detailed transaction history. Users also receive email notifications about various features and order confirmations. The app supports external authentication with Google. Additionally, users can update their profile, including changing their email, password, and name.
@@ -33,6 +31,7 @@ The application supports caching with Redis. If Redis is not installed or not ru
 
 # Resources
 - [SQL Database](https://drive.google.com/uc?export=download&id=16y2Xs0gOq5cWaVY440sDV5HZHhVP0OFG)
+
 
 
 Client-side of this project can be found on my [GitHub](https://github.com/Gvaroo/Online-Clothes-Shop-Frontend).
