@@ -26,7 +26,7 @@ Admins have additional capabilities, such as adding new products and restocking 
 # Installation
 1. **Clone the repository:**
 2. Update SQL Configuration:
-Change the SQL configuration in appsettings.json (download and set up my database).
+Change the SQL configuration in appsettings.json (download and set up my [SQL Database](https://drive.google.com/uc?export=download&id=16y2Xs0gOq5cWaVY440sDV5HZHhVP0OFG)).
 3. **Caching Configuration:**
 The application supports caching with Redis. If Redis is not installed or not running, the application will fall back to using in-memory caching. No additional configuration is required to handle this fallback.
 4. Run the API
